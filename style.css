@@ -1,6 +1,10 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header{
-    background-color: #BBBBBB;
-    padding: 20px;
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
 .cabecalho{
@@ -17,7 +21,7 @@ nav{
 
 nav li{
     display:inline;
-    margin-right: 15px;
+    margin:0 0 0 15px;
 }
 
 nav a{
@@ -135,5 +139,10 @@ footer {
 	text-align: center;
 	background: url("./assets/bg.jpg");
 	padding: 40px 0;
-    color: #FFFFFF
+}
+
+.copyright{
+    color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
