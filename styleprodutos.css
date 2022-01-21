@@ -1,6 +1,10 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header{
-    background-color: #BBBBBB;
-    padding: 20px;
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
 .cabecalho{
@@ -17,7 +21,7 @@ nav{
 
 nav li{
     display:inline;
-    margin-right: 15px;
+    margin:0 0 0 15px;
 }
 
 nav a{
@@ -34,7 +38,6 @@ nav a:hover{
 }
 
 .produtos{
-    display:inline-block;
     text-align: center;
     padding:50px 0;
     margin:0 auto;
@@ -51,8 +54,16 @@ nav a:hover{
     box-sizing: border-box;
     width:30%;
     vertical-align: top;
-    margin:0 1,5%;
+    margin:0 1.5%;
     
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+}
+
+.produtos li:active{
+    border-color: #088c19;
 }
 
 .produtos li h2{
@@ -60,9 +71,30 @@ nav a:hover{
     font-weight: 700;
 }
 
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
 .produtos-descricao{
     font-size: 18px;
     text-align: center;
 }
 
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:10px;
 
+}
+
+footer {
+	text-align: center;
+	background: url("./assets/bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright{
+    color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
