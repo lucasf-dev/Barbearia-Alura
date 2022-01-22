@@ -37,6 +37,67 @@ nav a:hover{
     text-decoration: underline;
 }
 
+main{
+    width:940px;
+    margin:auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{  
+    display: block; 
+    margin: 0 0 20px;
+    width:70%;
+    padding: 10px 25px;
+}
+
+select{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width:40%;
+    padding: 15px 0 ;
+    background: orange;
+    color: white;   
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    transition: 1s all;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform:scale(1.2)
+}
+
+table{
+    padding: 10px;
+    border:1px solid black;
+    margin: 10px
+}
+
+tr,td{
+    border:1px solid black;
+    padding: 8px 15px;
+}
+
+
 footer {
 	text-align: center;
 	background: url("./assets/bg.jpg");
